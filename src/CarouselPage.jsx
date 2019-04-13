@@ -9,17 +9,17 @@ const CarouselPage = () => {
           <MDBCarousel activeItem={1} length={3} showControls={true} showIndicators={true} className="z-depth-1">
             <MDBCarouselInner>
               <MDBCarouselItem itemId="1">
-                <video className="video-fluid d-block" autoPlay loop>
+                <video className="video-fluid d-block" muted autoPlay loop>
                   <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
                 </video>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="2">
-                <video className="video-fluid d-block" autoPlay loop>
+                <video className="video-fluid d-block" muted autoPlay loop>
                   <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
                 </video>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="3">
-                <video className="video-fluid d-block" autoPlay loop>
+                <video className="video-fluid d-block"  muted autoPlay loop>
                   <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
                 </video>
               </MDBCarouselItem>
