@@ -81,14 +81,7 @@ export class VideoBackgroundPage extends Component {
         </Router>
 
         <MDBView>
-          <video
-            className="video-intro"
-            poster=" "
-            playsInline
-            autoPlay
-            muted 
-            loop
-          >
+          <video className="video-intro" autoPlay muted loop>
             <source
               src="https://mdbootstrap.com/img/video/city.mp4" type="video/mp4"
             />
