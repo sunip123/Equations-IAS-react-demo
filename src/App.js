@@ -7,6 +7,7 @@ import VideoBackgroundPage from "./VideoBackgroundPage";
 import FeaturesPage from "./FeaturesPage";
 import ProjectsPage from "./ProjectsPage";
 //import FooterPagePro from "./FooterPagePro";
+import CarouselPage from "./CarouselPage";
 
 class App extends Component {
   render() {
@@ -14,11 +15,11 @@ class App extends Component {
       <>
       <VideoBackgroundPage />
       <FeaturesPage></FeaturesPage>
+      <CarouselPage></CarouselPage>
       <ProjectsPage></ProjectsPage>
-    
+      
       </>
     );
   }
 }
-
 export default App;
