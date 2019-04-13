@@ -6,7 +6,7 @@ import "mdbreact/dist/css/mdb.css";
 import VideoBackgroundPage from "./VideoBackgroundPage";
 import FeaturesPage from "./FeaturesPage";
 import ProjectsPage from "./ProjectsPage";
-//import FooterPagePro from "./FooterPagePro";
+import FooterPagePro from "./FooterPagePro";
 import CarouselPage from "./CarouselPage";
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
       <FeaturesPage></FeaturesPage>
       <CarouselPage></CarouselPage>
       <ProjectsPage></ProjectsPage>
-      
+      <FooterPagePro></FooterPagePro>
       </>
     );
   }
