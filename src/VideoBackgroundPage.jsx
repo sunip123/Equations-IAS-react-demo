@@ -86,7 +86,7 @@ export class VideoBackgroundPage extends Component {
             poster=" "
             playsInline
             autoPlay
-            muted=""
+            muted 
             loop
           >
             <source
